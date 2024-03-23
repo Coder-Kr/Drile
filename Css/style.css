@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clrfx{
+    clear: both;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.header{
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.logo{
+    margin-left: 165px;
+}
+
+.logo h1{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: "Potta one";
+}
+
+.nav{
+    margin: 0 196px 0 247px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+
+.navigation li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open sans";
+    color: rgba(105, 115, 144, 1);
+}
+
+.icons{
+    margin-right: 165px;
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    padding-right: 37px;
+    width: 22px;
+    height: 22px;
+}
+
+.icons img:nth-child(3){
+    padding-right: 0;
+}
+
+/* Main */
+/* Banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 92px;
+    margin-right: 92px;
+    margin-bottom: 84px;
+}
+
+.banner-text h2{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    font-family: "Federo";
+    width: 385px;
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+.banner-text input{
+    width: 122px;
+    height: 38px;
+    background-color: rgba(67, 67, 67, 1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Background box */
+.relative{
+    position: relative;
+}
+
+.background-box{
+    position: absolute;
+    width: 895px;
+    height: 465px;
+    background-color: rgba(246, 246, 246, 1);
+    z-index: -9;
+    top: -240px;
+    right: 0;
+}
+
+/* Items section */
+
+.items{
+    margin: 0 165px;
+    margin-bottom: 148px;
+}
+
+.items h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    font-family: "Federo";
+    margin-bottom: 41px;
+}
+
+.box-1, .box-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1{
+    margin-bottom: 30px;
+}
+
+.box-1 .item{
+    margin-right: 30px;
+    position: relative;
+    background-color: #fff;
+}
+
+.box-1 .item:nth-child(4){
+    margin-right: 0;
+}
+
+.box-1 .item{
+    position: relative;
+    width: 255px;
+    height: 342px;
+    border: 1px solid rgba(105, 115, 144, 0.175);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2 .item{
+    width: 350px;
+    height: 342px;
+    border: 1px solid rgba(105, 115, 144, 0.175);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2 .item{
+    margin-right: 30px;
+    position: relative;
+}
+
+.box-2 .item:nth-child(3){
+    margin-right: 0;
+}
+
+.img-text{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open sans";
+    text-align: center;
+    bottom: 25px;
+}
+
+.item-img{
+    position: absolute;
+    margin-bottom: 35px;
+}
+
+.item-icons{
+    position: absolute;
+    right: 5px;
+    bottom: 80px;
+}
+
+.item__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border: 0.2px solid rgba(91, 89, 89, 0.118);
+    margin-bottom: 5px;
+}
+
+.discount{
+    position: absolute;
+    right: 0;
+    top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount .hot{
+    margin-bottom: 5px;
+    background-color: rgba(242, 151, 49, 1);
+    width: 75px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount .percent{
+    background-color: rgba(158, 11, 15, 1);
+    width: 75px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount p{
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Deal section */
+.deal{
+    width: 1275px;
+    height: 594px;
+    border-radius: 377px 0px 0px 377px;
+    background-color: rgba(246, 246, 246, 1);
+    float: right;
+    margin-bottom: 128px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.deal-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 523px;
+    height: 523px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 47px;
+    margin-right: 104px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.deal-caption input:first-child{
+    width: 204px;
+    height: 38px;
+    background-color: rgba(128, 150, 188, 1);
+    
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 49px;
+}
+
+.deal-caption h4{
+    font-family: "Federo";
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 2%;
+}
+
+.deal-caption h4 span{
+    color: rgba(128, 150, 188, 1);
+}
+
+.deal-caption p{
+    width: 400px;
+    height: 74px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(114, 114, 114, 1);
+    margin-bottom: 36px;
+}
+
+.deal-caption input:nth-child(4) {
+    width: 122px;
+    height: 38px;
+    background-color: rgba(67, 67, 67, 1);
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.deal-caption__images{
+    display: flex;
+}
+
+.deal-caption__image{
+    width: 87px;
+    height: 87px;
+    border: 0.1px solid rgba(0, 0, 0, 0.096);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-right: 26px;
+}
+
+.deal-caption__image:nth-last-child(){
+    margin-right: 0;
+}
+
+
+/* Trending section */
+.trend{
+    margin: 0 98px 142px 98px;
+}
+
+.trend h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Federo";
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.trend-category{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.category-images{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(91, 89, 89, 0.118);
+}
+
+.category-image{
+    width: 160px;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category-image:hover{
+    background-color: rgba(251, 249, 243, 1);
+}
+
+.category-arrow:last-child{
+    margin-left: 46px;
+}
+
+.category-image.activ{
+    background-color: rgba(251, 249, 243, 1);
+}
+
+.category-arrow:first-child{
+    margin-right: 46px;
+}
+
+.category-arrow{
+    cursor: pointer;
+}
+
+.category-arrow img{
+    width: 20px;
+    height: 40px;
+}
+
+.trend-items{
+    display: flex;
+    justify-content: space-between;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.trend-item{
+    position: relative;
+    width: 255px;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(91, 89, 89, 0.118);
+}
+
+.trend-item__image{
+    margin-bottom: 35px;
+}
+
+.trend-item__text{
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+}
+
+.trend-item__text h4{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(42, 42, 43, 1);
+    margin-bottom: 8px;
+}
+
+.trend-item__text p{
+    font-family: "Federo";
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2%;
+    color: rgba(140, 140, 140, 1);
+}
+
+.trend-item__icons{
+    position: absolute;
+    right: 4px;
+    bottom: 84px;
+}
+
+.trend-item__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border: 0.2px solid rgba(91, 89, 89, 0.118);
+    margin-bottom: 5px;
+}
+
+.trend-item__icon:last-child{
+    margin-bottom: 0;
+}
+
+.trend-item__icon img{
+    color: rgba(0, 0, 0, 1);
+}
+
+
+
+/* Footer*/
+
+.footer{
+    position: relative;
+    background-image: url(../Images/footer-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 507px;
+
+}
+
+.footer-main{
+    width: 1139px;
+    height: 326px;
+    margin: 0 auto;
+}
+
+.footer-main__text{
+    padding-top: 61px;
+}
+
+.footer-main__text h2{
+    font-weight: 400;
+    font-size: 45px;
+    font-family: "Potta One";
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.footer-main__menus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main__menu h4{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.footer-main__menu ul li{
+    list-style-type: none;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 44.94px;
+    color: rgba(138, 138, 138, 1);
+}
+
+.footer-main__menu ul li i{
+    margin-right: 5px;
+    color: rgba(193, 219, 240, 1);
+}
+
+.footer-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-footer h4{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.opacity{
+    height: 100%;
+
+    background-color: #ffffff73;
+}
